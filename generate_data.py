@@ -39,6 +39,3 @@ print(f"Taux de churn : {data['churn'].mean():.1%}")
 print("Fichier CSV créé avec succès !")
 import os
 
-print("Dossier actuel :", os.getcwd())
-print("Fichier CSV présent :", os.path.exists("churn_data.csv"))
-print("Chemin du script :", os.path.abspath(__file__))
